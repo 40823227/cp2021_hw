@@ -10,7 +10,7 @@ config_dir = _curdir + "/config/"
 class Init(object):
     # uwsgi as static class variable, can be accessed by Init.uwsgi
     uwsgi = False
-    site_title = "cp2021 homework site"
+    site_title = "40823227 - 2021 Fall 計算機程式 作業網站"
     ip = "127.0.0.1"
     dynamic_port = 9448
     static_port = 8448
