@@ -1,8 +1,8 @@
 <h1>About</h1>
 <p><span>40823227</span></p>
+<p><span>心得:學了些細部的Python程式撰寫,及GitHub網頁編輯</span></p>
 <p>網站倉儲: <a href="https://github.com/40823227/cp2021_hw">https://github.com/40823227/cp2021_hw</a></p>
-<p>網站連結: <a href="https://40823227.github.io/cp2021_hw">https://40823227.github.io/cp2021_hw</a></p>
-<h1>HW1</h1>
+<p>網站連結: <a href="https://40823227.github.io/cp2021_hw">https://40823227.github.io/cp2021_hw</a></p><h1>HW1</h1>
 <p><span>1.將左右碰撞移動的紅色方塊, 改為先移動到水平畫面中心點位置後, 接著上下碰撞移動</span></p>
 <p><a href="https://gist.github.com/40823227/2ce33b92331c414455186e4ab358937b">https://gist.github.com/40823227/2ce33b92331c414455186e4ab358937b</a></p>
 <p><br/><span>2.讓使用者可以利用按鈕啟動或中斷紅色方塊上下碰撞移動</span></p>
@@ -1031,7 +1031,18 @@ function doSave(storage_id, filename){
 <script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
 <script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
 </p>
-<p><button id="red1">紅點1</button><button id="red2">紅點2</button><button id="ms">手動蛇</button><button id="ats">自動蛇</button><button id="atsb">自動蛇(優化)</button><button id="tenpositions">列出 10 個座標</button></p>
+<p>HW1</p>
+<p><button id="red1">紅點1</button><button id="red2">紅點2</button></p>
+<p>HW2</p>
+<p><button id="ms">手動蛇</button><button id="ats">自動蛇</button></p>
+<p>HW3</p>
+<p><button id="atsb">自動蛇(優化)</button></p>
+<p>Exam</p>
+<p><button id="tenpositions">列出 10 個座標</button></p>
+<p>小遊戲</p>
+<p><button id="ng">數字海裡尋覓你</button></p>
+<p>期末測驗</p>
+<p><button id="final_1">final_1</button></p>
 <p><!-- ######################  editor1 開始 ###################### --></p>
 <p><!-- 用來顯示程式碼的 editor 區域 --></p>
 <div id="kw_editor1" style="width: 600px; height: 300px;"></div>
@@ -1144,5 +1155,17 @@ tenpositions_url = "https://gist.githubusercontent.com/40823227/0f52a5f63eab8fb8
 tenpositions = button2(tenpositions_url)
 doc["tenpositions"].bind('click', tenpositions.do)
 ################################## 列出 10 個座標 end
+################################## 數字海裡尋覓你 start
+ng_url = "https://gist.githubusercontent.com/40823227/2cd1bcd810235c54d1272a5d4de45753/raw/14c284f022129fc22737c4d29391d1be5200437d/%25E5%259C%25A8%25E8%258C%25AB%25E8%258C%25AB%25E6%2595%25B8%25E5%25AD%2597%25E6%25B5%25B7%25E8%25A3%25A1%25E5%25B0%258B%25E8%25A6%2593%25E5%2594%25AF%25E4%25B8%2580%25E7%259A%2584%25E4%25BD%25A0"
+ng = button2(ng_url)
+doc["ng"].bind('click', ng.do)
+################################## 數字海裡尋覓你 end
+################################## final_1 start
+final_1_url = "https://gist.githubusercontent.com/40823227/be8bee9a5aabd8f10c7c990eda5df3d5/raw/bdce906464d5dbe7214eca91bebcd323235603d0/final_1"
+final_1 = button2(final_1_url)
+doc["final_1"].bind('click', final_1.do)
+################################## final_1 end
 </script>
 </p>
+<p>final_1</p>
+<p></p>
